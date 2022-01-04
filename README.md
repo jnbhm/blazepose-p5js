@@ -2,6 +2,8 @@
 
 This is a small project to use the skeleton data from blazepose with p5.js.
 
+![Sample Image](img/sample.png)
+
 ## Getting Started
 
 ### Usage
