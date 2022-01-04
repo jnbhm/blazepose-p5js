@@ -33,12 +33,13 @@ function setup () {
 function draw () {
   // Drawing the video image  
   image(capture, 0, 0, canvasWidth, canvasHeight);
+  
+  // Setting the color of the ellipse
   fill('green')
   
   // Here are the landmarks which will be tracked by blazepose
   if (landmarks && landmarks.length) {
     for (let i = 0; i < landmarks.length; i++) {
-      console.log(landmarks[i])
       // These are the x and y coordinated of the landmarks  
       const x = canvasWidth * landmarks[i].x
       const y = canvasHeight * landmarks[i].y
