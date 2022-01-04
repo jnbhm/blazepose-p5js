@@ -1,6 +1,6 @@
 # Blazepose and p5.js
 
-This is a small project to use the skeleton data from blazepose with p5.js.
+This is a small project to use the skeleton data from blazepose with p5.js. This will analyse a live video from your webcam.
 
 ![Sample Image](img/sample.png)
 
